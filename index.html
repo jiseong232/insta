@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/6d484f9f24.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="top">
+            <img class="top_img" src="https://i.pinimg.com/originals/3b/78/be/3b78be8948d4c39dfcbc81d4b5910c32.png"/>
+            <input type="search" value="검색"/>
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-regular fa-paper-plane"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <hr/>
+        <div id="profile">
+            <div id="profile_pic">
+                <img class="circle_pic" src="https://imagescdn.gettyimagesbank.com/500/22/413/372/0/1401722944.jpg"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">half_bottle<i class="fa-solid fa-gear"></i></div>
+                <button>프로필 편집</button>
+            </div>
+        </div>
+        <div>
+            <p>
+                <strong>반병현 (Byunghyun ban)</strong><br/>
+                저자
+            </p>
+            <p>
+                <a href="https://needleworm.github.io">
+                    needleworm.github.io
+                </a>
+            </p>
+        </div>
+        <p>
+            <div id="highlight_area">
+                <div class="highlight">
+                    <div class="highlight_pic">
+                        <img class="circle_pic" src="https://imagescdn.gettyimagesbank.com/500/22/413/372/0/1401722944.jpg"/>
+                    </div>
+                    <div>
+                        😎
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div class="highlight_pic">
+                        <img class="circle_pic" src="https://imagescdn.gettyimagesbank.com/500/22/413/372/0/1401722944.jpg"/>
+                    </div>
+                    <div>
+                        🥰
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </p>
+        <div id="stat_bar">
+            <div class="stat">
+                게시물<br/>
+                133
+            </div>
+            <div class="stat">
+                팔로워<br/>
+                408
+            </div>
+            <div class="stat">
+                팔로우<br/>
+                189<br/>
+            </div>
+        </div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fa-solid fa-border-all"></i>
+            </div>
+            <div><i class="fa-solid fa-film"></i></div>
+            <div><i class="fa-regular fa-circle-play"></i></div>
+            <div><i class="fa-regular fa-bookmark"></i></div>
+            <div><i class="fa-solid fa-user-tag"></i></div>
+        </div>
+        <div>
+            <div class="thumbnail_grid">
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+                <img src= "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11dc26c4-fa5f-4783-810b-919ec576189a/defeyf0-d1529034-cfa0-4f96-8430-12b1e8fa116d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzExZGMyNmM0LWZhNWYtNDc4My04MTBiLTkxOWVjNTc2MTg5YVwvZGVmZXlmMC1kMTUyOTAzNC1jZmEwLTRmOTYtODQzMC0xMmIxZThmYTExNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZNfSZWeF3eCthRGpYQQei1DkhqDpchrCJj4Jv0j3NTQ"/>
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+                <img src= "https://e7.pngegg.com/pngimages/416/12/png-clipart-square-rectangle-wiktionary-quadrilateral-angle-angle-white-thumbnail.png"/>
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+                <img src= "https://www.svgimages.com/svg-image/s4/square-256x256.png"/>
+                <img src= "https://e7.pngegg.com/pngimages/416/12/png-clipart-square-rectangle-wiktionary-quadrilateral-angle-angle-white-thumbnail.png"/>
+            </div>
+        </div> 
+    </body>
+</html>
+
+
+
+
+<style>
+    body{
+        font-size: 3vw;
+    }
+    h2{
+        color: red;
+    }
+
+    .thumbnail_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #stat_bar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .stat{
+        text-align: center;
+    }
+
+    .circle_pic{
+        border: solid white 1px;
+        border-radius: 50%;
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #profile_pic{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .highlight_pic{
+        width: 10vw;
+        height: 10vw;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #highlight_area{
+        display: grid;
+        grid-template-columns: 12vw 12vw 1fr;
+    }
+
+    .highlight{
+        text-align: center;
+    }
+
+    #profile{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    #profile_info{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+
+        height: 15vw;
+        }
+
+    #id{
+        font-size: 6vw;
+        font-weight: 100;
+        }
+
+    button{
+        height:100%;
+        width: 100%;
+
+        font-size: 3vw;
+        background-color: white;
+        border: solid gray 1px;
+        border-radius: 3px;
+    }
+
+    #top{
+        display: grid;
+        grid-template-columns: 4fr 7fr 4fr;
+
+        height: 10vw;
+        min-height: 10vw;
+    }
+
+    .top_img{
+        object-fit: fill;
+
+        margin-top: auto;
+        margin-bottom: auto;
+        
+        width: 100%;
+        height: 100%;
+    }
+
+    input{
+        object-fit: fill;
+
+        margin-top: auto;
+        margin-bottom: auto;
+
+        font-size: 3vw;
+
+        height: 60%;
+    }
+
+    #top i{
+        color: gray;
+        font-size: 4vw;
+    }
+
+    #top div{
+        text-align: center;
+
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    
+    #sub_icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        text-align: center;
+        font-size: 5vw;
+
+        height: 8vw;
+    }
+
+    .selected{
+        border-bottom: solid gray 3px;
+    }
+</style>
+
+  
